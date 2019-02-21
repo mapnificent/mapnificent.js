@@ -1,0 +1,40 @@
+{
+  "name": "@mapnificent/mapnificent",
+  "version": "0.0.1",
+  "description": "turf tesselate module",
+  "main": "main.js",
+  "module": "main.es.js",
+  "files": [
+    "index.js",
+    "main.js",
+    "main.es.js"
+  ],
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "node -r @std/esm test.js",
+    "posttest": "node -r @std/esm ../../scripts/validate-es5-dependencies.js",
+    "bench": "node -r @std/esm bench.js",
+    "docs": "node ../../scripts/generate-readmes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mapnificent/mapnificent.git"
+  },
+  "author": "Stefan Wehrmeyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turfjs/turf/issues"
+  },
+  "homepage": "https://github.com/Turfjs/turf",
+  "dependencies": {
+    "@mapnificent/converter": "*",
+    "@mapnificent/core": "*",
+    "@mapnificent/loader": "*",
+    "@mapnificent/network": "*",
+    "@mapnificent/quadtree": "*",
+    "@mapnificent/runner": "*"
+  },
+  "devDependencies": {
+    "rollup": "^0.65.0"
+  }
+}

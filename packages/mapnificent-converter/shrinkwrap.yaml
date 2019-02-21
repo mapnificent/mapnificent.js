@@ -1,0 +1,406 @@
+dependencies:
+  '@turf/bbox': 6.0.1
+  '@turf/buffer': 5.1.5
+  '@turf/union': 6.0.3
+  geojson-svgify: 0.5.0
+  geojson-to-svg: 1.0.3
+  projections: 1.0.0
+  vdom-to-html: 2.3.1
+  virtual-hyperscript-svg: 2.0.0
+devDependencies:
+  rollup: 0.65.0
+packages:
+  /@turf/bbox/5.1.5:
+    dependencies:
+      '@turf/helpers': 5.1.5
+      '@turf/meta': 5.2.0
+    dev: false
+    resolution:
+      integrity: sha1-MFHfUUrUxQ9KT5uKLRX9i2hA7aM=
+  /@turf/bbox/6.0.1:
+    dependencies:
+      '@turf/helpers': 6.1.4
+      '@turf/meta': 6.0.2
+    dev: false
+    resolution:
+      integrity: sha512-EGgaRLettBG25Iyx7VyUINsPpVj1x3nFQFiGS3ER8KCI1MximzNLsam3eXRabqQDjyAKyAE1bJ4EZEpGvspQxw==
+  /@turf/buffer/5.1.5:
+    dependencies:
+      '@turf/bbox': 5.1.5
+      '@turf/center': 5.1.5
+      '@turf/helpers': 5.1.5
+      '@turf/meta': 5.2.0
+      '@turf/projection': 5.1.5
+      d3-geo: 1.7.1
+      turf-jsts: 1.2.3
+    dev: false
+    resolution:
+      integrity: sha1-hByWJ8+5dLEirE4alW8EZrwCMcQ=
+  /@turf/center/5.1.5:
+    dependencies:
+      '@turf/bbox': 5.1.5
+      '@turf/helpers': 5.1.5
+    dev: false
+    resolution:
+      integrity: sha1-RKss2VT2PA03dX9xWKmcPvURS4A=
+  /@turf/clone/5.1.5:
+    dependencies:
+      '@turf/helpers': 5.1.5
+    dev: false
+    resolution:
+      integrity: sha1-JT6NNUdxgZduM636tQoPAqfw42c=
+  /@turf/helpers/5.1.5:
+    dev: false
+    resolution:
+      integrity: sha1-FTQFInq5M9AEpbuWQantmZ/L4M8=
+  /@turf/helpers/6.1.4:
+    dev: false
+    resolution:
+      integrity: sha512-vJvrdOZy1ngC7r3MDA7zIGSoIgyrkWcGnNIEaqn/APmw+bVLF2gAW7HIsdTxd12s5wQMqEpqIQrmrbRRZ0xC7g==
+  /@turf/invariant/6.1.2:
+    dependencies:
+      '@turf/helpers': 6.1.4
+    dev: false
+    resolution:
+      integrity: sha512-WU08Ph8j0J2jVGlQCKChXoCtI50BB3yEH21V++V0T4cR1T27HKCxkehV2sYMwTierfMBgjwSwDIsxnR4/2mWXg==
+  /@turf/meta/5.2.0:
+    dependencies:
+      '@turf/helpers': 5.1.5
+    dev: false
+    resolution:
+      integrity: sha1-OxrUhe4MOwsXdRMqMsOE1T5LpT0=
+  /@turf/meta/6.0.2:
+    dependencies:
+      '@turf/helpers': 6.1.4
+    dev: false
+    resolution:
+      integrity: sha512-VA7HJkx7qF1l3+GNGkDVn2oXy4+QoLP6LktXAaZKjuT1JI0YESat7quUkbCMy4zP9lAUuvS4YMslLyTtr919FA==
+  /@turf/projection/5.1.5:
+    dependencies:
+      '@turf/clone': 5.1.5
+      '@turf/helpers': 5.1.5
+      '@turf/meta': 5.2.0
+    dev: false
+    resolution:
+      integrity: sha1-JFF+7rLzaBa6n3EueubWo2jt91c=
+  /@turf/union/6.0.3:
+    dependencies:
+      '@turf/helpers': 6.1.4
+      '@turf/invariant': 6.1.2
+      martinez-polygon-clipping: 0.4.3
+    dev: false
+    resolution:
+      integrity: sha512-SJPhEvsR96k4vFqymxPPC43jcqFydTafGjHWnYzlupxqUDzIYD8X5d9Ed8mONl2T9oM4ErbNuuZ9j/eHvoWtKw==
+  /@types/estree/0.0.39:
+    dev: true
+    resolution:
+      integrity: sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
+  /@types/node/10.9.4:
+    dev: true
+    resolution:
+      integrity: sha512-fCHV45gS+m3hH17zgkgADUSi2RR1Vht6wOZ0jyHP8rjiQra9f+mIcgwPQHllmDocYOstIEbKlxbFDYlgrTPYqw==
+  /browser-split/0.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-ewl1dPjj6tYG+0Zk5krf3aKYGpM=
+  /buffer-from/1.1.1:
+    dev: false
+    resolution:
+      integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  /camelize/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-FkpUg+Yw+kMh5a8HAg5TGDGyYJs=
+  /concat-stream/1.6.2:
+    dependencies:
+      buffer-from: 1.1.1
+      inherits: 2.0.3
+      readable-stream: 2.3.6
+      typedarray: 0.0.6
+    dev: false
+    engines:
+      '0': node >= 0.8
+    resolution:
+      integrity: sha512-27HBghJxjiZtIk3Ycvn/4kbJk/1uZuJFfuPEns6LaEvpvG1f0hTea8lilrouyo9mVc2GWdcEZ8OLoGmSADlrCw==
+  /core-util-is/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+  /d3-array/1.2.4:
+    dev: false
+    resolution:
+      integrity: sha512-KHW6M86R+FUPYGb3R5XiYjXPq7VzwxZ22buHhAEVG5ztoEcZZMLov530mmccaqA1GghZArjQV46fuc8kUqhhHw==
+  /d3-geo/1.7.1:
+    dependencies:
+      d3-array: 1.2.4
+    dev: false
+    resolution:
+      integrity: sha512-O4AempWAr+P5qbk2bC2FuN/sDW4z+dN2wDf9QV3bxQt4M5HfOEeXLgJ/UKQW0+o1Dj8BE+L5kiDbdWUMjsmQpw==
+  /dom-walk/0.1.1:
+    dev: false
+    resolution:
+      integrity: sha1-ZyIm3HTI95mtNTB9+TaroRrNYBg=
+  /error/4.4.0:
+    dependencies:
+      camelize: 1.0.0
+      string-template: 0.2.1
+      xtend: 4.0.1
+    dev: false
+    resolution:
+      integrity: sha1-v2n/JR+0onnBmtzNqmth6Q2b8So=
+  /escape-html/1.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
+  /ev-store/7.0.0:
+    dependencies:
+      individual: 3.0.0
+    dev: false
+    resolution:
+      integrity: sha1-GrDH+CE2UF3XSzHRdwHLK+bSZVg=
+  /function-bind/1.1.1:
+    dev: false
+    resolution:
+      integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
+  /geojson-flatten/0.2.2:
+    dependencies:
+      concat-stream: 1.6.2
+      minimist: 1.2.0
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-P9lzhr2NTsEjcVRmTBf/taXXSEw8Vwp6ITtY8oS54cvGuq1z0/d1BILv3E6IPRv83+XLLXGprOTvXxEq1yxJ/w==
+  /geojson-project/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-qpNGWGVYo2XETWaY/80L/FffRAY=
+  /geojson-svgify/0.5.0:
+    dependencies:
+      geojson-flatten: 0.2.2
+      projections: 1.0.0
+      virtual-hyperscript-svg: 2.0.0
+    dev: false
+    resolution:
+      integrity: sha1-yxnpjLAE7eA7ve1fhCrIW5VypiQ=
+  /geojson-to-svg/1.0.3:
+    dependencies:
+      geojson-project: 1.0.1
+      json-extend: 0.1.0
+      string-hash: 1.1.3
+      transformation-matrix-js: 2.7.5
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha1-KeL4yCNN9ldjtTmvoJ5uOtcKcnU=
+  /global/4.3.2:
+    dependencies:
+      min-document: 2.19.0
+      process: 0.5.2
+    dev: false
+    resolution:
+      integrity: sha1-52mJJopsdMOJCLEwWxD8DjlOnQ8=
+  /has/1.0.3:
+    dependencies:
+      function-bind: 1.1.1
+    dev: false
+    engines:
+      node: '>= 0.4.0'
+    resolution:
+      integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
+  /individual/3.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-58pPhfiVewGHNPKFdQ3CLsL5hi0=
+  /inherits/2.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+  /is-object/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-iVJojF7C/9awPsyF52ngKQMINHA=
+  /isarray/0.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
+  /isarray/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+  /json-extend/0.1.0:
+    dev: false
+    resolution:
+      integrity: sha1-drGII9XGVgTYh81ZJyrgfaUVA5g=
+  /lower-case/1.1.4:
+    dev: false
+    resolution:
+      integrity: sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
+  /martinez-polygon-clipping/0.4.3:
+    dependencies:
+      splaytree: 0.1.4
+      tinyqueue: 1.2.3
+    dev: false
+    resolution:
+      integrity: sha512-3ZNS0ksKhWTLsmCUkNf+/UimndZ5U2cVOS0I+IjiwF+M23E77TmeOZSmbRJbfCoQUog/vcQ42s3DXrhgOhgPqw==
+  /min-document/2.19.0:
+    dependencies:
+      dom-walk: 0.1.1
+    dev: false
+    resolution:
+      integrity: sha1-e9KC4/WELtKVu3SM3Z8f+iyCRoU=
+  /minimist/1.2.0:
+    dev: false
+    resolution:
+      integrity: sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+      tarball: 'http://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz'
+  /next-tick/0.2.2:
+    dev: false
+    resolution:
+      integrity: sha1-ddpKkn7liH45BliABltzNkE7MQ0=
+  /param-case/1.1.2:
+    dependencies:
+      sentence-case: 1.1.3
+    dev: false
+    resolution:
+      integrity: sha1-3LCRpDwlm5Io8cNB57akTqC/l0M=
+  /process-nextick-args/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-MtEC1TqN0EU5nephaJ4rAtThHtC86dNN9qCuEhtshvpVBkAW5ZO7BASN9REnF9eoXGcRub+pFuKEpOHE+HbEMw==
+  /process/0.5.2:
+    dev: false
+    engines:
+      node: '>= 0.6.0'
+    resolution:
+      integrity: sha1-FjjYqONML0QKkduVq5rrZ3/Bhc8=
+  /projections/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-iCMyrXutsJmVLN0UhOQva5v3Hw4=
+  /readable-stream/2.3.6:
+    dependencies:
+      core-util-is: 1.0.2
+      inherits: 2.0.3
+      isarray: 1.0.0
+      process-nextick-args: 2.0.0
+      safe-buffer: 5.1.2
+      string_decoder: 1.1.1
+      util-deprecate: 1.0.2
+    dev: false
+    resolution:
+      integrity: sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
+  /rollup/0.65.0:
+    dependencies:
+      '@types/estree': 0.0.39
+      '@types/node': 10.9.4
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha512-en95i7zwW5IiWay6DR/6QV8TxO2LvWuCjHYDcgP96oVG/gPnWWzsxNViObhoJUs17bAj2RgB67WuBuGmysZZcw==
+  /safe-buffer/5.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+  /sentence-case/1.1.3:
+    dependencies:
+      lower-case: 1.1.4
+    dev: false
+    resolution:
+      integrity: sha1-gDSq/CFFdy06vhUJqkLJ4QQtwTk=
+  /splaytree/0.1.4:
+    dev: false
+    resolution:
+      integrity: sha512-D50hKrjZgBzqD3FT2Ek53f2dcDLAQT8SSGrzj3vidNH5ISRgceeGVJ2dQIthKOuayqFXfFjXheHNo4bbt9LhRQ==
+  /string-hash/1.1.3:
+    dev: false
+    resolution:
+      integrity: sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs=
+  /string-template/0.2.1:
+    dev: false
+    resolution:
+      integrity: sha1-QpMuWYo1LQH8IuwzZ9nYTuxsmt0=
+  /string_decoder/1.1.1:
+    dependencies:
+      safe-buffer: 5.1.2
+    dev: false
+    resolution:
+      integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+  /tinyqueue/1.2.3:
+    dev: false
+    resolution:
+      integrity: sha512-Qz9RgWuO9l8lT+Y9xvbzhPT2efIUIFd69N7eF7tJ9lnQl0iLj1M7peK7IoUGZL9DJHw9XftqLreccfxcQgYLxA==
+  /transformation-matrix-js/2.7.5:
+    dev: false
+    resolution:
+      integrity: sha512-OdV1uIKE76xCpTkAMtiJZxKoVIYeYNAeNPAWwVKKctXrcIRL2ZktT1k7Tj4js+OQGjcMQfcTSVlWH1VhadghFQ==
+  /turf-jsts/1.2.3:
+    dev: false
+    resolution:
+      integrity: sha512-Ja03QIJlPuHt4IQ2FfGex4F4JAr8m3jpaHbFbQrgwr7s7L6U8ocrHiF3J1+wf9jzhGKxvDeaCAnGDot8OjGFyA==
+  /typedarray/0.0.6:
+    dev: false
+    resolution:
+      integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+  /util-deprecate/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+  /vdom-to-html/2.3.1:
+    dependencies:
+      escape-html: 1.0.3
+      param-case: 1.1.2
+      xtend: 4.0.1
+    dev: false
+    peerDependencies:
+      virtual-dom: ^2.0.0
+    resolution:
+      integrity: sha1-FHYmc2dtG5z7PxjX61ZvUnVGUZ0=
+  /virtual-dom/2.1.1:
+    dependencies:
+      browser-split: 0.0.1
+      error: 4.4.0
+      ev-store: 7.0.0
+      global: 4.3.2
+      is-object: 1.0.1
+      next-tick: 0.2.2
+      x-is-array: 0.1.0
+      x-is-string: 0.1.0
+    dev: false
+    resolution:
+      integrity: sha1-gO2i1IG57eDASRGM78tKBfIdE3U=
+  /virtual-hyperscript-svg/2.0.0:
+    dependencies:
+      has: 1.0.3
+      isarray: 0.0.1
+      virtual-dom: 2.1.1
+      xtend: 4.0.1
+    dev: false
+    resolution:
+      integrity: sha1-MeU4iAe2C5GKwqVr4OjUn9vPDOY=
+  /x-is-array/0.1.0:
+    dev: false
+    resolution:
+      integrity: sha1-3lIBcdR7P0FvVYfWKbidJrEtwp0=
+  /x-is-string/0.1.0:
+    dev: false
+    resolution:
+      integrity: sha1-R0tQhlrzpJqcRlfwWs0UVFj3fYI=
+  /xtend/4.0.1:
+    dev: false
+    engines:
+      node: '>=0.4'
+    resolution:
+      integrity: sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@turf/bbox': ^6.0.1
+  '@turf/buffer': ^5.1.5
+  '@turf/union': ^6.0.3
+  geojson-svgify: ^0.5.0
+  geojson-to-svg: ^1.0.3
+  projections: ^1.0.0
+  rollup: ^0.65.0
+  vdom-to-html: ^2.3.1
+  virtual-hyperscript-svg: ^2.0.0

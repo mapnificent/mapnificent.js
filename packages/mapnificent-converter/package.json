@@ -1,0 +1,42 @@
+{
+  "name": "@mapnificent/converter",
+  "version": "0.0.1",
+  "description": "turf tesselate module",
+  "main": "main.js",
+  "module": "main.es.js",
+  "files": [
+    "index.js",
+    "main.js",
+    "main.es.js"
+  ],
+  "scripts": {
+    "build": "rollup -c ../../rollup.config.js",
+    "test": "node -r @std/esm test.js",
+    "posttest": "node -r @std/esm ../../scripts/validate-es5-dependencies.js",
+    "bench": "node -r @std/esm bench.js",
+    "docs": "node ../../scripts/generate-readmes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mapnificent/mapnificent.git"
+  },
+  "author": "Stefan Wehrmeyer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turfjs/turf/issues"
+  },
+  "homepage": "https://github.com/Turfjs/turf",
+  "dependencies": {
+    "@turf/bbox": "^6.0.1",
+    "@turf/buffer": "^5.1.5",
+    "@turf/union": "^6.0.3",
+    "geojson-svgify": "^0.5.0",
+    "geojson-to-svg": "^1.0.3",
+    "projections": "^1.0.0",
+    "vdom-to-html": "^2.3.1",
+    "virtual-hyperscript-svg": "^2.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^0.65.0"
+  }
+}

@@ -1,32 +1,8 @@
 {
-  "name": "mapnificent.js",
-  "version": "0.0.1",
-  "description": "Mapnificent routing",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Stefan Wehrmeyer",
-  "license": "MIT",
-  "dependencies": {
-    "geojson-svgify": "^0.5.0",
-    "geojson-to-svg": "^1.0.3",
-    "projections": "^1.0.0",
-    "protobufjs": "^6.7.3",
-    "turf-bbox": "^3.0.12",
-    "turf-buffer": "^3.0.12",
-    "turf-featurecollection": "^1.0.1",
-    "turf-union": "^3.0.12",
-    "virtual-dom-stringify": "^3.0.1",
-    "virtual-hyperscript-svg": "^2.0.0"
-  },
   "devDependencies": {
-    "browserify": "^14.4.0",
-    "eslint": "^3.19.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.3.0",
-    "eslint-plugin-node": "^4.2.2",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "lerna": "^3.4.1"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.3"
   }
 }
